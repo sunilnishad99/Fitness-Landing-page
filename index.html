@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinNext Pro | Dynamic Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body data-theme="dark"> <nav class="navbar">
+        <div class="logo">Fin<span>Next</span></div>
+        <div class="nav-links" id="nav-links">
+            <a href="#hero">Home</a>
+            <a href="#features">Features</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#faq">FAQ</a>
+        </div>
+        <div class="nav-actions">
+            <button id="theme-toggle" class="theme-btn">☀️</button>
+            <button class="btn-nav">Get Started</button>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <header class="hero" id="hero">
+        <div class="hero-content reveal">
+            <h1>Banking for the <span>Future</span></h1>
+            <p>Manage your assets with AI-driven insights and premium security.</p>
+            <div class="hero-btns">
+                <button class="btn-primary">Join Waitlist</button>
+                <button class="btn-secondary">Learn More</button>
+            </div>
+        </div>
+        <div class="hero-visual reveal">
+            <div class="glass-card">
+                <p>Available Balance</p>
+                <h2>$12,450.00</h2>
+                <div class="card-line"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="features" id="features">
+        <div class="feat-card reveal">
+            <h3>Instant Pay</h3>
+            <p>Send money anywhere in 2 seconds.</p>
+        </div>
+        <div class="feat-card reveal">
+            <h3>Secure Vault</h3>
+            <p>Your data is protected by AES-256.</p>
+        </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+        <h2 class="section-title reveal">Our Plans</h2>
+        <div class="pricing-grid">
+            <div class="price-card reveal">
+                <h4>Free</h4>
+                <h3>$0<span>/mo</span></h3>
+                <button class="btn-secondary">Select</button>
+            </div>
+            <div class="price-card reveal highlight">
+                <h4>Pro</h4>
+                <h3>$15<span>/mo</span></h3>
+                <button class="btn-primary">Select</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq" id="faq">
+        <h2 class="section-title reveal">Questions?</h2>
+        <div class="accordion reveal">
+            <div class="accordion-item">
+                <div class="accordion-header">How to start? <span>+</span></div>
+                <div class="accordion-body">Just sign up and link your bank account.</div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">Is it free? <span>+</span></div>
+                <div class="accordion-body">Yes, our basic plan is free forever.</div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
